@@ -1,0 +1,26 @@
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+   
+
+
+Fundo
+#ff6f61
+#FF6F61
+card
+#61f1ff
+#d7fbff
+sombra
+#323232
+
+
+degrade:
+background: -moz-linear-gradient(-45deg,  rgba(156,246,255,0.68) 0%, rgba(255,156,197,0.68) 27%, rgba(255,165,156,0.68) 49%, rgba(255,215,156,0.68) 67%, rgba(255,215,156,0.68) 87%);
+    background: -webkit-linear-gradient(-45deg,  rgba(156,246,255,0.68) 0%,rgba(255,156,197,0.68) 27%,rgba(255,165,156,0.68) 49%,rgba(255,215,156,0.68) 67%,rgba(255,215,156,0.68) 87%);
+    background: linear-gradient(135deg,  rgba(156,246,255,0.68) 0%,rgba(255,156,197,0.68) 27%,rgba(255,165,156,0.68) 49%,rgba(255,215,156,0.68) 67%,rgba(255,215,156,0.68) 87%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad9cf6ff', endColorstr='#adffd79c',GradientType=1 ) !important;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;

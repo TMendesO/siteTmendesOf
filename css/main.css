@@ -1,0 +1,117 @@
+
+html{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#fff;
+    margin:0;
+    padding:0;
+    height: 100%;
+    transform-style: preserve-3d;
+  overflow-x: hidden;
+
+  perspective: 2px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
+   
+    
+}
+
+/*==========Card==============================*/
+
+
+.container-fluid .card{
+   
+    background-color: transparent;
+    border:transparent;
+    position: relative;
+
+  height: 100vh;
+  min-height: 700px;
+
+  transform-style: inherit; 
+   
+
+}
+container-fluid .card::before{
+    
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  z-index: -1;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+   transform: translateZ(-1px) scale(1.5);
+}
+
+.card{
+   	position:relative;
+    margin-top:-47%;
+    left:-1%;
+    width: 50%;  
+    
+    
+   
+   
+		
+   
+}
+
+.card-body h1{
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight:bold;
+    text-align: center;
+    font-style:normal;
+    position:inherit;
+    font-size: 75px; 
+    
+    
+}
+
+
+.card-body h3{   
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight:100;
+    text-align: center;
+    font-style:normal;
+    position:inherit;    
+    font-size: 28px;
+  
+
+}
+/*==========================image============*/
+
+.pic{
+    position:relative;
+    left: 12%;
+}
+/*====================box================*/
+.box .row{
+      position:absolute;
+    right: 50%;
+      top: 205%;
+     width: 45%;
+    height: 40%;
+    background-color:#ececec;
+    border: none;
+     
+    }    
+
+.box .row p{
+       font-family: 'Open Sans', sans-serif;
+      font-weight: 500;
+       font-size: 17px;
+     line-height: 20px;
+    text-align: left;
+    text-indent: 10px;
+    color:black;
+    }  
