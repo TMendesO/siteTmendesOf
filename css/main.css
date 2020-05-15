@@ -1,23 +1,23 @@
 
-html{
-    margin:0;
-    padding:0;
-}
-
-body{
+ #fix{
     background-color:#fff;
-    margin:0;
-    padding:0;
-    height: 100%;
+    position:fixed;
+    overflow-x: hidden;
+    overflow-y: hidden;
     transform-style: preserve-3d;
-  overflow-x: hidden;
-
-  perspective: 2px;
-    font-family: 'Julius Sans One', sans-serif;
-    font-family: 'Nanum Gothic', sans-serif;
-   
+    perspective: 2px;
     
 }
+
+#scroll{
+    position:relative;
+    overflow-y:scroll;
+    overflow-x:hidden;
+   
+}
+
+
+
 
 /*==========Card==============================*/
 
@@ -27,7 +27,7 @@ body{
     background-color: transparent;
     border:transparent;
     position: relative;
-
+    overflow: hidden;
   height: 100vh;
   min-height: 700px;
 
@@ -43,7 +43,7 @@ container-fluid .card::before{
   right: 0;
   bottom: 0;
   left: 0;
-
+  overflow: hidden;
   z-index: -1;
 
   background-size: cover;
@@ -58,7 +58,7 @@ container-fluid .card::before{
     margin-top:-47%;
     left:-1%;
     width: 50%;  
-    
+    overflow: hidden;
     
    
    
@@ -74,7 +74,7 @@ container-fluid .card::before{
     position:inherit;
     font-size: 75px; 
     
-    
+    overflow: hidden;
 }
 
 
@@ -85,7 +85,7 @@ container-fluid .card::before{
     font-style:normal;
     position:inherit;    
     font-size: 28px;
-  
+  overflow: hidden;
 
 }
 /*==========================image============*/
@@ -93,6 +93,7 @@ container-fluid .card::before{
 .pic{
     position:relative;
     left: 12%;
+    overflow: hidden;
 }
 /*====================box================*/
 .box .row{
@@ -103,6 +104,7 @@ container-fluid .card::before{
     height: 40%;
     background-color:#ececec;
     border: none;
+    overflow: hidden;
      
     }    
 
@@ -114,4 +116,5 @@ container-fluid .card::before{
     text-align: left;
     text-indent: 10px;
     color:black;
+    overflow: hidden;
     }  
