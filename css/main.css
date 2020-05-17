@@ -98,11 +98,11 @@ container-fluid .card::before{
      position:relative;
     right: 45%;
     top: 25%;
-     width: 100%;
-    height: 100%;
+    width: 100%;
+    height: 50%;
     background-color:transparent;
     border: none;
-    overflow: scroll;
+    overflow-y: scroll;
     margin-left: 50%;
    
 }

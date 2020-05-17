@@ -1,4 +1,10 @@
- $("div#scroll").bind("mousewheel",function(ev, delta) {
-    var scrollTop = $(this).scrollTop();
-    $(this).scrollTop(scrollTop-Math.round(delta));
+
+$(document).ready(function(){
+    $(".navbar-toggle").click(function(){
+        $(".menu").toggleClass("menu-open");
+    })
+});
+
+      $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
 });
