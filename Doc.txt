@@ -24,3 +24,19 @@ background: -moz-linear-gradient(-45deg,  rgba(156,246,255,0.68) 0%, rgba(255,15
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
+    
+    
+   
+    Botões
+              <button type="button" class="btn btn-primary" data-toggle="modal"  data-target="#botao">Botão 1</button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#">Botão 2</button>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#">Botão 3</button>
+              
+     Texto Modal
+    <section>
+        <div class="row">
+          <h3>Lorem ipsum dolor</h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel luctus metus, ut consectetur ante. Maecenas at felis ultrices, dignissim tellus id, imperdiet lacus. Praesent ac neque in odio lobortis rutrum nec blandit libero. Ut rutrum pulvinar nisi sit amet ullamcorper. Mauris vel egestas sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec eget massa sed lectus facilisis iaculis tempus vel felis. Sed ut massa ex. Etiam nec odio eget turpis elementum lobortis vitae vitae lorem. Praesent hendrerit nisl nec urna aliquet ornare. Sed semper convallis neque eget pellentesque. Fusce velit lacus, suscipit in justo in, convallis bibendum turpis. Sed sed eros mattis, ultrices magna ut, facilisis enim. Integer in felis luctus erat dictum dignissim. In gravida non ligula eu tempus. Etiam porttitor dolor sit amet fermentum cursus.
+            </p>
+        </div>
+    </section>

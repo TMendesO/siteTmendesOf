@@ -1,11 +1,6 @@
-body{
-    overflow: hidden;
-}
-
-
  #fix{
     background-color:#fff;
-    position:fixed;
+    position:relative;
     overflow-x: hidden;
     overflow-y: hidden;
     transform-style: preserve-3d;
@@ -55,12 +50,13 @@ container-fluid .card::before{
 
 .card{
    	position:relative;
-    margin-top:-47%;
-    left:-1%;
-    width: 50%;  
+    margin-bottom: 30%;
+     right:10%;
+    width: 200%;  
     overflow: hidden;
    
 }
+
 
 .card-body h1{
     font-family: 'Julius Sans One', sans-serif;
