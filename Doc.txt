@@ -39,4 +39,124 @@ background: -moz-linear-gradient(-45deg,  rgba(156,246,255,0.68) 0%, rgba(255,15
              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel luctus metus, ut consectetur ante. Maecenas at felis ultrices, dignissim tellus id, imperdiet lacus. Praesent ac neque in odio lobortis rutrum nec blandit libero. Ut rutrum pulvinar nisi sit amet ullamcorper. Mauris vel egestas sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec eget massa sed lectus facilisis iaculis tempus vel felis. Sed ut massa ex. Etiam nec odio eget turpis elementum lobortis vitae vitae lorem. Praesent hendrerit nisl nec urna aliquet ornare. Sed semper convallis neque eget pellentesque. Fusce velit lacus, suscipit in justo in, convallis bibendum turpis. Sed sed eros mattis, ultrices magna ut, facilisis enim. Integer in felis luctus erat dictum dignissim. In gravida non ligula eu tempus. Etiam porttitor dolor sit amet fermentum cursus.
             </p>
         </div>
-    </section>
+    </section
+    
+    ------------------------------------------------------------------------------------------------------------------------------------------------
+    
+    
+    /*==========Card==============================*/
+
+
+ .container-fluid .card {
+
+     background-color: transparent;
+     border: transparent;
+     position: relative;
+     overflow: hidden;
+     height: 100vh;
+     min-height: 700px;
+     margin-left: 40px;
+     transform-style: inherit;
+
+
+ }
+
+ container-fluid .card::before {
+
+     content: " ";
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     overflow: hidden;
+     z-index: -1;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+
+     transform: translateZ(-1px) scale(1.5);
+ }
+
+ .card {
+     position: relative;
+     margin-bottom: 30%;
+     right: 10%;
+     width: 200%;
+     overflow: hidden;
+
+ }
+
+
+ .card-body h1 {
+     font-family: 'Julius Sans One', sans-serif;
+     font-weight: bold;
+     text-align: center;
+     font-style: normal;
+     position: inherit;
+     font-size: 75px;
+     overflow: hidden;
+ }
+
+ .card-body h2 {
+     font-family: 'Nanum Gothic', sans-serif;
+     font-weight: 100;
+     text-align: center;
+     font-style: normal;
+     position: inherit;
+     font-size: 28px;
+     overflow: hidden;
+     margin-top: -50px;
+
+
+ }
+
+
+ /*==========================image============*/
+
+ .pic {
+     position: relative;
+     left: 12%;
+     overflow: hidden;
+ }
+
+ /*====================box================*/
+ #scroll {
+     position: relative;
+     right: 45%;
+     top: 25%;
+     width: 100%;
+     height: 50%;
+     background-color: transparent;
+     border: none;
+     overflow-y: scroll;
+     margin-left: 50%;
+
+ }
+
+
+
+ .row h3 {
+
+     text-align: justify;
+     font-style: normal;
+     position: relative;
+     font-size: 28px;
+     margin-left: 20px;
+
+ }
+
+ .row p {
+
+     text-align: justify;
+     font-style: normal;
+     position: relative;
+     font-size: 18px;
+     margin-left: 20px;
+     margin-right: 30px
+ }
+
+ section {
+     width: 1200px;
+     overflow: hidden;
+ }
