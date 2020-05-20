@@ -1,29 +1,29 @@
  #fix {
-     background-color: red;
-     position: relative;
-     perspective: 2px;
+     background-color: transparent;
+     position: absolute;
+     perspective: 30%;
      height: 100%;
      width: 100%;
-     margin-top: -20px;
+     margin-top: -3%;
+
  }
 
  img {
      position: relative;
-     left: 10%;
-     top: -50px;
-     background-color: blue;
+     left: 3.2%;
+     bottom: 67%;
+     background-color: transparent;
      height: 100%;
      width: 100%;
  }
 
  .container-fluid {
-     position: inherit;
-     bottom: 647px;
-     right: 330px;
-     margin-bottom: -1000px;
-     background-color: aqua;
-     width: 560px;
-     height: 340px;
+     position: relative;
+     top: -90%;
+     right: 25%;
+     background-color: transparent;
+     width: 47%;
+     height: 50%;
 
  }
 
@@ -34,6 +34,12 @@
      font-style: normal;
      font-size: 65px;
      width: 560px;
+
+ }
+
+ .btn {
+     margin-right: 6%;
+     margin-left: 7%;
 
  }
 
