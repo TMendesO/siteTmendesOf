@@ -1,56 +1,74 @@
- #fix {
-     background-color: transparent;
-     position: absolute;
-     perspective: 30%;
-     height: 100%;
-     width: 100%;
-     margin-top: -3%;
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
 
- }
+#fix {
+    background-color: transparent;
+    position: absolute;
+    perspective: 30%;
+    height: 100%;
+    width: 100%;
+    margin-top: -3%;
 
- img {
-     position: relative;
-     left: 3.2%;
-     bottom: 67%;
-     background-color: transparent;
-     height: 100%;
-     width: 100%;
- }
+}
 
- .container-fluid {
-     position: relative;
-     top: -90%;
-     right: 25%;
-     background-color: transparent;
-     width: 47%;
-     height: 50%;
+img {
+    position: relative;
+    left: 3.2%;
+    bottom: 67%;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+}
 
- }
+.container-fluid {
+    position: relative;
+    top: -90%;
+    right: 25%;
+    background-color: transparent;
+    width: 47%;
+    height: 50%;
 
- .card-body h1 {
-     font-family: 'Julius Sans One', sans-serif;
-     font-weight: bold;
-     text-align: left center;
-     font-style: normal;
-     font-size: 65px;
-     width: 560px;
+}
 
- }
+.card-body {
+    background-color: whitesmoke;
+    border: hidden;
+}
 
- .btn {
-     margin-right: 6%;
-     margin-left: 7%;
+.col-xs-4 {
+    background-color: whitesmoke;
+    border: hidden;
+}
 
- }
+.card-body h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    text-align: left center;
+    font-style: normal;
+    font-size: 65px;
+    width: 560px;
 
- .card-body h2 {
-     font-family: 'Nanum Gothic', sans-serif;
-     font-weight: 100px;
-     text-align: center;
-     font-style: normal;
-     font-size: 28px;
-     width: 560px;
-     margin-top: -30px;
+}
+
+.btn {
+    margin-right: 6%;
+    margin-left: 7%;
+
+    border: 0px;
+
+}
+
+.card-body h2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 100px;
+    text-align: center;
+    font-style: normal;
+    font-size: 28px;
+    width: 560px;
+    margin-top: -30px;
 
 
- }
+}
