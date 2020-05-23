@@ -1,7 +1,7 @@
 body {
     overflow-y: hidden;
     overflow-x: hidden;
-    background-color: whitesmoke;
+    background-color: #f5f4f4;
 }
 
 #fix {
@@ -12,6 +12,7 @@ body {
     width: 100%;
     margin-top: -3%;
 
+
 }
 
 img {
@@ -21,6 +22,7 @@ img {
     background-color: transparent;
     height: 100%;
     width: 100%;
+
 }
 
 .container-fluid {
@@ -33,15 +35,15 @@ img {
 
 }
 
-.card-body {
-    background-color: whitesmoke;
-    border: hidden;
-}
+
 
 .col-xs-4 {
-    background-color: whitesmoke;
-    border: hidden;
+    background-color: transparent;
+
+    border: 0px;
 }
+
+
 
 .card-body h1 {
     font-family: 'Julius Sans One', sans-serif;
@@ -50,13 +52,14 @@ img {
     font-style: normal;
     font-size: 65px;
     width: 560px;
+    border: none;
 
 }
 
 .btn {
     margin-right: 6%;
     margin-left: 7%;
-
+    width: 33%;
     border: 0px;
 
 }
@@ -69,6 +72,21 @@ img {
     font-size: 28px;
     width: 560px;
     margin-top: -30px;
+    border: none;
 
+
+}
+
+.container-fluid {}
+
+.row {}
+
+.card {
+    background-color: transparent;
+    border: 0px;
+}
+
+.card-body {
+    border: 0px;
 
 }
