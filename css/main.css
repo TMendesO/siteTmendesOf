@@ -59,8 +59,11 @@ img {
 .btn {
     margin-right: 6%;
     margin-left: 7%;
-    width: 33%;
+    width: 36%;
     border: 0px;
+    background-color: transparent;
+    color: #949494;
+
 
 }
 
