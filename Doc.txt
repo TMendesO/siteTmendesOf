@@ -19,6 +19,46 @@ card
 sombra
 #323232
 
+---------------------------foto minha *_* ---------
+       <figure class="pic">
+            <img src="img/fundo.png">
+        </figure>
+        
+        #fix {
+    background-color: transparent;
+    position: absolute;
+    perspective: 30%;
+    height: 100%;
+    width: 100%;
+    margin-top: -3%;
+
+
+}
+img {
+    position: relative;
+    left: 3.2%;
+    bottom: 67%;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+-----------------------------------MODAL/não funciona------------------------------
+
+  <div class="modal hide fade" id="dino" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="myModalLabel">Modal header</h3>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+           <button type="button" class="btn btn-light btn-lg" data-dismiss="modal">Fechar</button>
+        </div>
+    </div>
+
 
 degrade:
 background: -moz-linear-gradient(-45deg,  rgba(156,246,255,0.68) 0%, rgba(255,156,197,0.68) 27%, rgba(255,165,156,0.68) 49%, rgba(255,215,156,0.68) 67%, rgba(255,215,156,0.68) 87%);

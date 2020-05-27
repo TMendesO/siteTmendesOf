@@ -2,33 +2,18 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
     background-color: #f5f4f4;
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-position: right bottom 90%;
 }
 
-#fix {
-    background-color: transparent;
-    position: absolute;
-    perspective: 30%;
-    height: 100%;
-    width: 100%;
-    margin-top: -3%;
 
-
-}
-
-img {
-    position: relative;
-    left: 3.2%;
-    bottom: 67%;
-    background-color: transparent;
-    height: 100%;
-    width: 100%;
-
-}
 
 .container-fluid {
-    position: relative;
-    top: -90%;
-    right: 25%;
+    position: absolute;
+    float: right;
+    top: 30%;
+    right: 53%;
     background-color: transparent;
     width: 47%;
     height: 50%;
@@ -80,9 +65,6 @@ img {
 
 }
 
-.container-fluid {}
-
-.row {}
 
 .card {
     background-color: transparent;

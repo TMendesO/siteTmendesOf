@@ -43,25 +43,15 @@
 </head>
 
 <body>
-    <script>
-        $('#meuModal').on('shown.bs.modal', function() {
-            $('#meuInput').trigger('focus')
-        })
-    </script>
-    <nav></nav>
-    <div id="fix">
 
-        <figure class="pic">
-            <img src="img/fundo.png">
-        </figure>
-        <div class="container-fluid">
-            <div class="row card">
-                <div class="col-xs-4 card-body">
-                    <h1>Thiago Mendes</h1>
-                    <h2>Web Desiner || Programador Web</h2>
-                    <button type="button" class="btn btn-light btn-lg" data-toggle="modal" data-target="#botao">Biografia</button>
-                    <button type="button" class="btn btn-light btn-lg" data-toggle="modal" href="dino.html" data-target="#dino">Divirta-se</button>
-                </div>
+    <nav></nav>
+    <div class="container-fluid">
+        <div class="row card">
+            <div class="col-xs-4 card-body">
+                <h1>Thiago Mendes</h1><br />
+                <h2>Web Desiner || Programador Web</h2>
+                <button type="button" class="btn btn-light btn-lg" data-toggle="modal" data-target="#botao">Biografia</button>
+                <button type="button" class="btn btn-light btn-lg" data-toggle="modal" href="dino.html" data-target="#dino">Divirta-se</button>
             </div>
         </div>
     </div>
@@ -92,17 +82,32 @@
         </div>
     </div>
     <!---------------------Outro Modal------------------------->
-    <div class="modal hide fade" id="dino" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h3 id="myModalLabel">Modal header</h3>
-        </div>
-        <div class="modal-body">
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-light btn-lg" data-dismiss="modal">Fechar</button>
+
+    <div class="modal fade" id="dino" tabindex="-1" role="dialog">
+        <div class="modal-dialog  modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Consegue bater meu record?</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>X</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light btn-lg" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
         </div>
     </div>
+
+
+
+
+
+
 
 </body>
 
