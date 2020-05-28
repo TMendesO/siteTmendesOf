@@ -1,26 +1,97 @@
 body {
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
     overflow-x: hidden;
     background-color: #f5f4f4;
-    background-image: url(../img/fundo.png);
-    background-repeat: no-repeat;
-    background-position: right bottom 90%;
+
+
+
 }
 
-
+.fundo {
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-position: right bottom 69%;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 798px;
+}
 
 .container-fluid {
-    position: absolute;
+    position: fixed;
     float: right;
     top: 30%;
     right: 53%;
     background-color: transparent;
     width: 47%;
     height: 50%;
+}
 
+.content {
+    background-image: url(../img/sol.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1290px;
+    max-height: 100%;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: justify;
+    font-style: normal;
+    color: lightgray;
+    font-size: 28px;
+    padding-top: 1%;
 }
 
 
+#sobre {}
+
+#sobre h3 {
+    font-size: 38px;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+
+.mercurio {
+    background: url(../img/mercurio.png) top left;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    top: 195%;
+    left: 10%;
+    background-color: transparent;
+    width: 47%;
+    height: 100%;
+
+
+}
+
+.venus {
+
+    background: url(../img/venus.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    top: 178%;
+    left: 54%;
+    background-color: transparent;
+    width: 47%;
+    height: 100%;
+
+}
+
+.terra {
+    background: url(../img/Earth.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: absolute;
+    top: 190%;
+    left: 14%;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+
+}
 
 .col-xs-4 {
     background-color: transparent;

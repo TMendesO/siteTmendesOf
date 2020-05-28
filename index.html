@@ -44,43 +44,42 @@
 
 <body>
 
+
     <nav></nav>
+    <div class="fundo"></div>
     <div class="container-fluid">
         <div class="row card">
             <div class="col-xs-4 card-body">
                 <h1>Thiago Mendes</h1><br />
                 <h2>Web Desiner || Programador Web</h2>
-                <button type="button" class="btn btn-light btn-lg" data-toggle="modal" data-target="#botao">Biografia</button>
+                <button type="button" class="btn btn-light btn-lg" href="#sobre">Biografia</button>
                 <button type="button" class="btn btn-light btn-lg" data-toggle="modal" href="dino.html" data-target="#dino">Divirta-se</button>
             </div>
         </div>
     </div>
-    <!---------------------Modal----------------->
-    <div class="modal fade" id="botao" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
 
-                <div class="modal-header">
-                    <h5 class="modal-title">Bio</h5>
-                    <button type="button" class="close" data-dismiss="modal">
-                        <span>X</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <section>
-                        <div class="row">
-                            <h3>Lorem ipsum dolor</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel luctus metus, ut consectetur ante. Maecenas at felis ultrices, dignissim tellus id, imperdiet lacus. Praesent ac neque in odio lobortis rutrum nec blandit libero. Ut rutrum pulvinar nisi sit amet ullamcorper. Mauris vel egestas sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec eget massa sed lectus facilisis iaculis tempus vel felis. Sed ut massa ex. Etiam nec odio eget turpis elementum lobortis vitae vitae lorem. Praesent hendrerit nisl nec urna aliquet ornare. Sed semper convallis neque eget pellentesque. Fusce velit lacus, suscipit in justo in, convallis bibendum turpis. Sed sed eros mattis, ultrices magna ut, facilisis enim. Integer in felis luctus erat dictum dignissim. In gravida non ligula eu tempus. Etiam porttitor dolor sit amet fermentum cursus.
-                            </p>
-                        </div>
-                    </section>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
-                </div>
-            </div>
+    <!---------------------sobre----------------->
+
+    <div class="content">
+
+        <div id="sobre">
+            <h3>Lorem ipsum dolor</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel luctus metus, ut consectetur ante. Maecenas at felis ultrdignissim tellus id, imperdiet lacus. Praesent ac neque in odio lobortis rutrum nec blandit libero. Ut rutrum pulvinar nisi sit amet ullamcorper. Mauris vel egestas sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec eget massa sed lectus facilisis iaculis tempus vel felis. Sed ut massa ex. Etiam nec odio eget turpis elementum lobortis vitae vitae lorem. Praesent hendrerit nisl nec urna aliquet ornare. Sed semper convallis neque eget pellentesque. Fusce velit lacus, suscipit in justo in, convallis bibendum turpis. Sed sed eros mattis, ultrices magna ut, facilisis enim. Integer in felis luctus erat dictum dignissim. In gravida non ligula eu tempus. Etiam porttitor dolor sit amet fermentum cursus.
+            </p>
+            <footer>
+                <ul>
+                    <li>Instagram</li>
+                    <li>GitHub</li>
+                    <li>Linkedin</li>
+                </ul>
+            </footer>
+            <div class="mercurio"></div>
+            <div class="venus"></div>
+            <div class="terra"></div>
         </div>
     </div>
+
+
     <!---------------------Outro Modal------------------------->
 
     <div class="modal fade" id="dino" tabindex="-1" role="dialog">
@@ -112,11 +111,9 @@
 </body>
 
 <!-- Importando o jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/jquery.js"></script>
 
 <!-- Importando o js do bootstrap -->
 <script src="js/main.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script></html>
+<script src="js/jarallax.js"></script></html>
