@@ -2,6 +2,7 @@ body {
     /*overflow-y: hidden;*/
     overflow-x: hidden;
     background-color: #f5f4f4;
+<<<<<<< HEAD
 
 
 
@@ -21,6 +22,35 @@ body {
     float: right;
     top: 30%;
     right: 53%;
+=======
+}
+
+#fix {
+    background-color: transparent;
+    position: absolute;
+    perspective: 30%;
+    height: 100%;
+    width: 100%;
+    margin-top: -3%;
+
+
+}
+
+img {
+    position: relative;
+    left: 3.2%;
+    bottom: 67%;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+
+}
+
+.container-fluid {
+    position: relative;
+    top: -90%;
+    right: 25%;
+>>>>>>> parent of b7289a2... corrigi posicionamento
     background-color: transparent;
     width: 47%;
     height: 50%;
@@ -136,6 +166,9 @@ body {
 
 }
 
+.container-fluid {}
+
+.row {}
 
 .card {
     background-color: transparent;
