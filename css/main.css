@@ -1,66 +1,30 @@
 body {
-    overflow-y: hidden;
+    /* overflow-y: hidden;*/
     overflow-x: hidden;
     background-color: #f5f4f4;
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-
-}
-
-.fundo {
-=======
->>>>>>> parent of b3368bb... Montando o Parallax
     background-image: url(../img/fundo.png);
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     background-position: right bottom 90%;
-}
 
+}
 
 
 .container-fluid {
-    position: absolute;
+    position: fixed;
     float: right;
     top: 30%;
     right: 53%;
-=======
-}
-
-#fix {
-    background-color: transparent;
-    position: absolute;
-    perspective: 30%;
-    height: 100%;
-    width: 100%;
-    margin-top: -3%;
-
-
-}
-
-img {
-    position: relative;
-    left: 3.2%;
-    bottom: 67%;
-    background-color: transparent;
-    height: 100%;
-    width: 100%;
-
-}
-
-.container-fluid {
-    position: relative;
-    top: -90%;
-    right: 25%;
->>>>>>> parent of b7289a2... corrigi posicionamento
     background-color: transparent;
     width: 47%;
     height: 50%;
-<<<<<<< HEAD
+
 }
 
+
 .content {
-    background-image: url(../img/sol.jpg);
+    background-image: url(../img/fundo1.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -73,13 +37,7 @@ img {
     font-size: 28px;
     padding-top: 1%;
 }
-=======
->>>>>>> parent of b3368bb... Montando o Parallax
 
-}
-
-
-<<<<<<< HEAD
 .mercurio {
     background: url(../img/mercurio.png) top left;
     background-repeat: no-repeat;
@@ -109,7 +67,7 @@ img {
 }
 
 .terra {
-    background: url(../img/Earth.png);
+    background: url(../img/terra.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     position: absolute;
@@ -121,8 +79,6 @@ img {
     max-height: 100%;
 
 }
-=======
->>>>>>> parent of b3368bb... Montando o Parallax
 
 .col-xs-4 {
     background-color: transparent;
