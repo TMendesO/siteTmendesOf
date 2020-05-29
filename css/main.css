@@ -60,7 +60,7 @@ img {
 }
 
 .content {
-    background-image: url(../img/espaco.gif);
+    background-image: url(../img/sol.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -109,7 +109,7 @@ img {
 }
 
 .terra {
-    background: url(../img/terra.png);
+    background: url(../img/Earth.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     position: absolute;

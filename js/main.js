@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 $('#dino').on('shown.bs.modal', function () {
+=======
+$('#myModal').on('shown.bs.modal', function () {
+>>>>>>> parent of 6e7d721... Erro-ficou-ruim
     $('#myInput').trigger('focus')
 });
 
