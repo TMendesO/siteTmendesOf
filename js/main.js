@@ -1,4 +1,4 @@
-$('#myModal').on('shown.bs.modal', function () {
+$('#dino').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')
 });
 

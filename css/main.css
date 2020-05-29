@@ -27,7 +27,7 @@ body {
 }
 
 .content {
-    background-image: url(../img/sol.jpg);
+    background-image: url(../img/espaco.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -80,7 +80,7 @@ body {
 }
 
 .terra {
-    background: url(../img/Earth.png);
+    background: url(../img/terra.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     position: absolute;
