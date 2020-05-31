@@ -142,3 +142,55 @@ background: -moz-linear-gradient(-45deg,  rgba(156,246,255,0.68) 0%, rgba(255,15
      width: 1200px;
      overflow: hidden;
  }
+
+<footer>
+                <ul>
+                    <li>Instagram</li>
+                    <li>GitHub</li>
+                    <li>Linkedin</li>
+                </ul>
+            </footer>
+            
+=================================Planetas==============================================
+.mercurio {
+    background: url(../img/mercurio.png) top left;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    top: 65%;
+    left: 10%;
+    background-color: transparent;
+    width: 47%;
+    height: 100%;
+
+
+}
+
+.venus {
+
+    background: url(../img/venus.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    position: relative;
+    top: 78%;
+    left: 24%;
+    background-color: transparent;
+    width: 47%;
+    height: 100%;
+
+}
+
+.terra {
+    background: url(../img/terra.png);
+    background-repeat: no-repeat;
+    transform-style: inherit;
+    position: relative;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: translateZ(-1px) scale(1.5);
+
+
+}
+
