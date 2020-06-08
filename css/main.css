@@ -1,5 +1,5 @@
 body {
-    /* overflow-y: hidden;*/
+    overflow-y: ;
     overflow-x: hidden;
     background-color: #f5f5f5;
     margin: 0;
@@ -53,13 +53,18 @@ html {
     background-color: rgb(255, 252, 252, 0.5);
     position: absolute;
     border-radius: 1%;
-    height: 60%;
-    width: 60%;
+    height: 50%;
+    width: 50%;
     z-index: 1;
     -webkit-box-shadow: 4px 2px 10px 0px rgba(48, 50, 50, 0.76);
     -moz-box-shadow: 4px 2px 10px 0px rgba(48, 50, 50, 0.76);
     box-shadow: 4px 2px 10px 0px rgba(48, 50, 50, 0.76);
 
+}
+
+#minhaDiv {
+
+    display: none;
 }
 
 .sobre .card-title {
