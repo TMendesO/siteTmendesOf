@@ -30,11 +30,6 @@ debounce = function (func, wait, immediate) {
 
 
 
-
-
-
-
-
 (function () {
     var $target = $('.content'),
         animationClass = 'content-start',
@@ -58,13 +53,3 @@ debounce = function (func, wait, immediate) {
         animeScroll();
     }, 160));
 }());
-
-/*$('#btn1').click(function () {
-    animeScroll();
-});
-
-$(function () {
-    $('#btn1').click(function () {
-        $(this).siblings('div#bio').slideToggle();
-    })
-});*/
