@@ -19,7 +19,7 @@ html {
     background-attachment: fixed;
     background-size: cover;
     position: fixed;
-    z-index: 3;
+    z-index: 1;
     left: 10%;
     top: -10%;
 }
@@ -32,9 +32,19 @@ html {
     right: 53%;
     background-color: transparent;
     width: 47%;
-    z-index: 2;
+    z-index: 1;
     height: 50%;
 
+}
+.container-fluid-start{
+    position: absolute;
+    float: right;
+    top: 30%;
+    right: 53%;
+    background-color: transparent;
+    width: 47%;
+    z-index: 2;
+    height: 50%;
 }
 
 .content {
@@ -49,7 +59,7 @@ html {
     transform: translate3d(0, 0, 0);
     position: absolute;
     top: 0.9%;
-    z-index: 2;
+    z-index: 1;
     height: 100%;
     width: 100%;
 

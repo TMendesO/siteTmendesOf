@@ -12,6 +12,8 @@ $('.btn').on('click', function (e) {
     $(".modal-body").html('<iframe width="100%" height="100%" frameborder="0" scrolling="yes" allowtransparency="true" src="' + url + '"></iframe>');
 });
 
+
+
 debounce = function (func, wait, immediate) {
     var timeout;
     return function () {
@@ -30,26 +32,25 @@ debounce = function (func, wait, immediate) {
 
 
 
-(function () {
-    var $target = $('.content'),
-        animationClass = 'content-start',
-        offset = $(window).height() * 1.4;
 
-    function animeScroll() {
-        var documentTop = $(document).scrollTop();
+var $target = $('.content'),
+    animationClass = 'content-start',
+    offset = $(window).height() * 1.4;
 
-        $target.each(function () {
-            var itemTop = $(this).offset().top;
-            if (documentTop > itemTop - 30) {
-                $(this).addClass(animationClass);
-            } else {
-                $(this).removeClass(animationClass);
-            }
-        })
-    }
+function animeScroll() {
+    var documentTop = $(document).scrollTop();
 
+    $target.each(function () {
+        var itemTop = $(this).offset().top;
+        if (documentTop > itemTop - 30) {
+            $(this).addClass(animationClass);
+        } else {
+            $(this).removeClass(animationClass);
+        }
+    });
+};
+
+$('#btn1').click(function () {
     animeScroll();
-    $(document).scroll(debounce(function () {
-        animeScroll();
-    }, 160));
-}());
+
+});
