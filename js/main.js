@@ -42,7 +42,7 @@ function animeScroll() {
 
     $target.each(function () {
         var itemTop = $(this).offset().top;
-        if (documentTop > itemTop - 30) {
+        if (documentTop > itemTop - 17) {
             $(this).addClass(animationClass);
         } else {
             $(this).removeClass(animationClass);
@@ -52,5 +52,20 @@ function animeScroll() {
 
 $('#btn1').click(function () {
     animeScroll();
+    $('.container-fluid').hide('slow');
 
+});
+
+
+$(document).ready(function () {
+    $("#nodino").animate({
+        "left": "80px"
+    }, 300, null, function () {
+        $("#nodino").animate({
+            "left": "200px"
+        }, 400);
+        $("#nodino").animate({
+            "left": "75px"
+        }, 300);
+    });
 });
