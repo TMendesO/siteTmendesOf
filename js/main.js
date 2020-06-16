@@ -32,40 +32,31 @@ debounce = function (func, wait, immediate) {
 
 
 
+(function () {
+    var $target = $('.content'),
+        animationClass = 'content-start',
+        offset = $(window).height() * 1.4;
 
-var $target = $('.content'),
-    animationClass = 'content-start',
-    offset = $(window).height() * 1.4;
+    function animeScroll() {
+        var documentTop = $(document).scrollTop();
 
-function animeScroll() {
-    var documentTop = $(document).scrollTop();
+        $target.each(function () {
+            var itemTop = $(this).offset().top;
+            if (documentTop > itemTop - 17) {
+                $(this).addClass(animationClass);
+            } else {
+                $(this).removeClass(animationClass);
+            }
+        });
+    };
+    $('#btn1').click(function () {
+        animeScroll();
+        /* $(".nodino").toggle("puff");*/
+        $('.container-fluid').hide('slow');
 
-    $target.each(function () {
-        var itemTop = $(this).offset().top;
-        if (documentTop > itemTop - 17) {
-            $(this).addClass(animationClass);
-        } else {
-            $(this).removeClass(animationClass);
-        }
     });
-};
 
-$('#btn1').click(function () {
-    animeScroll();
-    $('.container-fluid').hide('slow');
-
-});
-
-
-$(document).ready(function () {
-    $("#nodino").animate({
-        "left": "80px"
-    }, 300, null, function () {
-        $("#nodino").animate({
-            "left": "200px"
-        }, 400);
-        $("#nodino").animate({
-            "left": "75px"
-        }, 300);
-    });
+})();
+$(document).click(function () {
+    $(".nodino").toggle("puff");
 });

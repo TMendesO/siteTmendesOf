@@ -20,7 +20,7 @@ html {
     background-size: cover;
     position: fixed;
     z-index: 2;
-    left: 10%;
+    left: 18%;
     top: -10%;
 }
 
@@ -41,8 +41,8 @@ html {
 .content {
     opacity: 0;
     top: 0.9%;
-    transform: translate3d(-100px, 0, 0);
-    transition: .3s;
+    transform: translate3d(-1000px, 0, 0);
+    transition: 2s;
 }
 
 .content-start {
@@ -50,7 +50,7 @@ html {
     transform: translate3d(0, 0, 0);
     position: absolute;
     top: -13%;
-    z-index: 2;
+    z-index: inherit;
     height: 100%;
     width: 100%;
 
@@ -67,7 +67,7 @@ html {
     border-radius: 1%;
     height: 50%;
     width: 50%;
-    z-index: 1;
+    z-index: inherit;
     -webkit-box-shadow: 4px 2px 10px 0px rgba(48, 50, 50, 0.76);
     -moz-box-shadow: 4px 2px 10px 0px rgba(48, 50, 50, 0.76);
     box-shadow: 4px 2px 10px 0px rgba(48, 50, 50, 0.76);
@@ -79,10 +79,11 @@ html {
     background-attachment: fixed;
     background-size: cover;
     position: fixed;
-    z-index: 2;
-    left: 52%;
-    top: 19%;
+    z-index: 4;
+    left: 53%;
+    top: 1%;
 }
+
 
 #minhaDiv {
 
