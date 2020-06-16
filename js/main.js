@@ -49,14 +49,15 @@ debounce = function (func, wait, immediate) {
             }
         });
     };
+
+    $(function () {
+        $(".nodino").toggle("puff");
+    });
     $('#btn1').click(function () {
         animeScroll();
-        /* $(".nodino").toggle("puff");*/
+        $(".nodino").toggle("puff");
         $('.container-fluid').hide('slow');
 
     });
 
 })();
-$(document).click(function () {
-    $(".nodino").toggle("puff");
-});
