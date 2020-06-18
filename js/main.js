@@ -50,6 +50,7 @@ debounce = function (func, wait, immediate) {
         });
     };
 
+
     $(function () {
         $(".nodino").hide();
     });
@@ -61,11 +62,13 @@ debounce = function (func, wait, immediate) {
     });
 
     $('#nodino').click(function () {
-        animeScroll.stop();
+        $target.removeClass(animationClass);
         $('.container-fluid').show('slow');
         $(".nodino").hide('slow');
 
 
     });
+
+
 
 })();
