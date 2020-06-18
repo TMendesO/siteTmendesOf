@@ -51,12 +51,20 @@ debounce = function (func, wait, immediate) {
     };
 
     $(function () {
-        $(".nodino").toggle("puff");
+        $(".nodino").hide();
     });
     $('#btn1').click(function () {
         animeScroll();
-        $(".nodino").toggle("puff");
+        $(".nodino").show('slow');
         $('.container-fluid').hide('slow');
+
+    });
+
+    $('#nodino').click(function () {
+        animeScroll.stop();
+        $('.container-fluid').show('slow');
+        $(".nodino").hide('slow');
+
 
     });
 
