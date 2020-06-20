@@ -48,7 +48,7 @@ body {
     opacity: 0;
     top: 0.9%;
     transform: translate3d(-1000px, 0, 0);
-    transition: 2s;
+    transition: all 2s ease-out;
 }
 
 .content-start {
@@ -59,6 +59,12 @@ body {
     z-index: inherit;
     height: 130%;
     width: 100%;
+
+
+}
+
+img.card-img {
+    position: relative;
 
 
 }
@@ -80,11 +86,26 @@ body {
 
 }
 
+
 .nodino {
+    opacity: 0;
+    transform: perspective(780px) translateZ(250px);
+    transition: all 1s ease-in;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    position: fixed;
+    left: 56%;
+    top: 3%;
+}
+
+.nodino-start {
+    opacity: 1;
+    transform: perspective(100px) translateZ(10px);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
     z-index: 4;
     left: 56%;
     top: 3%;
@@ -132,9 +153,22 @@ body {
 
 }
 
-.btn {
-    margin-right: 6%;
+.btnB {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 900;
+    margin-right: 0%;
     margin-left: 7%;
+    width: 36%;
+    border: 0px;
+    background-color: transparent;
+    color: #949494;
+
+
+}
+
+.btnD {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
     width: 36%;
     border: 0px;
     background-color: transparent;
@@ -167,4 +201,96 @@ body {
 .card-body {
     border: 0px;
 
+}
+
+/*===============================Responsive=======================*/
+@media only screen and (max-width: 600px) {
+
+    h1,
+    .h1,
+    h2,
+    .h2,
+    h3,
+    .h3,
+    h4,
+    .h4 {
+        margin-top: 5.1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    h5,
+    .h5,
+    h6,
+    .h6 {
+        margin-top: 3.6rem;
+        margin-bottom: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    h1,
+    .h1 {
+        font-size: 3.3rem;
+        letter-spacing: -.07rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    p .lead {
+        font-size: 1.8rem;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .display-1 {
+        font-size: 7.2rem;
+    }
+
+    .display-2 {
+        font-size: 4.4rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .display-1 {
+        font-size: 6.5rem;
+    }
+
+    .display-2 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .display-1 {
+        font-size: 5rem;
+    }
+
+    .display-2 {
+        font-size: 3.3rem;
+    }
+
+    .subhead {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .display-1 {
+        font-size: 4.2rem;
+    }
+
+    .display-2 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .section-header {
+        max-width: 800px;
+    }
 }

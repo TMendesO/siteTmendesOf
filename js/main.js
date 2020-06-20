@@ -35,6 +35,8 @@ debounce = function (func, wait, immediate) {
 (function () {
     var $target = $('.content'),
         animationClass = 'content-start',
+        $targetD = $('.nodino'),
+        animationD = 'nodino-start',
         offset = $(window).height() * 1.4;
 
     function animeScroll() {
@@ -51,20 +53,30 @@ debounce = function (func, wait, immediate) {
     };
 
 
-    $(function () {
-        $(".nodino").hide();
-    });
+    function animeDino() {
+        var documentTop = $(document).scrollTop();
+
+        $targetD.each(function () {
+            var itemTop = $(this).offset().top;
+            if (documentTop > itemTop - 17) {
+                $(this).addClass(animationD);
+            } else {
+                $(this).removeClass(animationD);
+            }
+        });
+    };
     $('#btn1').click(function () {
         animeScroll();
-        $(".nodino").show('slow');
+        animeDino();
         $('.container-fluid').hide('slow');
 
     });
 
     $('#nodino').click(function () {
         $target.removeClass(animationClass);
+        $targetD.removeClass(animationD);
         $('.container-fluid').show('slow');
-        $(".nodino").hide('slow');
+
 
 
     });
