@@ -210,24 +210,17 @@ img.card-img {
 
 
 @media only screen and (max-width: 400px) {
-    html {
-        margin: 0;
-        padding: 0;
-    }
 
     html,
     body {
+        margin: 0;
+        padding: 0;
         height: 100%;
-    }
-
-    body {
+        width: 100%;
         overflow-y: hidden;
         overflow-x: hidden;
         background-color: #f5f5f5;
-        margin: 0;
-        padding: 0;
-        perspective: -1px;
-        transform-style: preserve-3d;
+        position: absolute;
 
     }
 
@@ -251,9 +244,13 @@ img.card-img {
         top: 100%;
         left: 98%;
         background-color: rgba(216, 216, 216, 0.7);
+        border-radius: 1%;
         width: 162%;
         z-index: 2;
         height: 36%;
+        -webkit-box-shadow: 4px 2px 10px 0px rgba(48, 50, 50, 0.76);
+        -moz-box-shadow: 4px 2px 10px 0px rgba(48, 50, 50, 0.76);
+        box-shadow: 4px 2px 10px 0px rgba(48, 50, 50, 0.76);
 
     }
 
@@ -294,16 +291,17 @@ img.card-img {
         opacity: 1;
         transform: translate3d(0, 0, 0);
         position: absolute;
-        top: -2%;
-        z-index: inherit;
-        height: 130%;
-        width: 100%;
+        left: 0%;
+        top: 70%;
+        z-index: 2;
+        height: inherit;
+        width: 259%;
 
 
     }
 
     img.card-img {
-        position: relative;
+        position: absolute;
 
 
     }
@@ -312,9 +310,9 @@ img.card-img {
 
     .sobre {
         background-color: rgb(255, 252, 252, 0.5);
-        position: relative;
-        left: 1%;
-        bottom: 67%;
+        position: absolute;
+        left: 5%;
+        bottom: 37%;
         border-radius: 1%;
         height: 50%;
         width: 50%;
@@ -322,6 +320,25 @@ img.card-img {
         -webkit-box-shadow: 4px 2px 10px 0px rgba(48, 50, 50, 0.76);
         -moz-box-shadow: 4px 2px 10px 0px rgba(48, 50, 50, 0.76);
         box-shadow: 4px 2px 10px 0px rgba(48, 50, 50, 0.76);
+
+    }
+
+    .sobre .card-title {
+        font-family: 'Julius Sans One', sans-serif;
+        font-style: normal;
+        font-size: 55px;
+        color: #ff6f61;
+        position: inherit;
+
+    }
+
+
+    .sobre .card-text {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: black;
+        top: 21%;
+        position: inherit;
 
     }
 
@@ -333,8 +350,8 @@ img.card-img {
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        left: 56%;
-        top: 3%;
+        left: 50%;
+        top: 17%;
     }
 
     .nodino-start {
@@ -346,12 +363,9 @@ img.card-img {
         background-size: cover;
         position: absolute;
         z-index: 4;
-        left: 56%;
-        top: 3%;
-    }
+        left: 50%;
+        top: 17%;
 
-    .nodino-start:hover {
-        transform: skew();
     }
 
 
@@ -359,23 +373,6 @@ img.card-img {
 
         display: none;
     }
-
-    .sobre .card-title {
-        font-family: 'Julius Sans One', sans-serif;
-        font-style: normal;
-        font-size: 50px;
-        color: #ff6f61;
-
-    }
-
-    .sobre .card-text {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 18px;
-        color: black;
-
-    }
-
-
 
     .col-xs-4 .card-body {
 
